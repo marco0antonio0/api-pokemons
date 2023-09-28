@@ -3,7 +3,7 @@ const serverless = require("serverless-http");
 const app = express();
 const router = express.Router();
 router.get("/", (req, res) => {
-  res.send("Minha API Express está funcionando!");
+  res.json({ ap: '"Minha API Express está funcionando!"' });
 });
 
 app.use("/.netlify/functions/api", router);
