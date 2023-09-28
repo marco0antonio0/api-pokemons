@@ -1,16 +1,19 @@
 {
-  "name": "test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "13.4.19"
+    "next": "13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
