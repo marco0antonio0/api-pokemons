@@ -1,3 +1,6 @@
 [build]
+  command = "npm install && npm run build"  # Substitua "build" pelo nome do seu script de build, se necessário
+  functions = "functions"  # Diretório onde suas funções serverless serão armazenadas
 
-  functions = "functions"
+[dev]
+  functions = "functions"  # Diretório das funções para ambiente de desenvolvimento

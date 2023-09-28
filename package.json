@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/netlify-lambda server src",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "node app.js", 
+    "build": "echo 'Nenhuma build é necessária para uma API'",
+    "test": "echo 'Nenhum teste definido para a API'"
   },
   "keywords": [],
   "author": "",
