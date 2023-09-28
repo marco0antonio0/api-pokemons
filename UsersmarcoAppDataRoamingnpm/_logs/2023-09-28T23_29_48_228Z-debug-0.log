@@ -1,0 +1,85 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.6.7
+2 info using node@v18.17.1
+3 timing npm:load:whichnode Completed in 4ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\marco\Desktop\api-node\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\marco\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Program Files\nodejs\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 22ms
+17 timing npm:load:configload Completed in 22ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm exec create-next-app test
+21 verbose argv "exec" "--" "create-next-app" "test"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 5ms
+24 timing npm:load:display Completed in 6ms
+25 verbose logfile logs-max:10 dir:C:\Users\marco\Desktop\api-node\UsersmarcoAppDataRoamingnpm\_logs\2023-09-28T23_29_48_228Z-
+26 verbose logfile C:\Users\marco\Desktop\api-node\UsersmarcoAppDataRoamingnpm\_logs\2023-09-28T23_29_48_228Z-debug-0.log
+27 timing npm:load:logFile Completed in 15ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 51ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 http fetch GET 200 https://registry.npmjs.org/npm 1361ms (cache miss)
+34 http fetch GET 200 https://registry.npmjs.org/create-next-app 1296ms (cache miss)
+35 timing arborist:ctor Completed in 1ms
+36 timing arborist:ctor Completed in 0ms
+37 warn exec The following package was not found and will be installed: create-next-app@13.5.3
+38 timing arborist:ctor Completed in 0ms
+39 timing idealTree:init Completed in 7ms
+40 timing idealTree:userRequests Completed in 2ms
+41 silly idealTree buildDeps
+42 silly fetch manifest create-next-app@13.5.3
+43 http fetch GET 200 https://registry.npmjs.org/create-next-app 25ms (cache hit)
+44 silly placeDep ROOT create-next-app@13.5.3 OK for:  want: 13.5.3
+45 timing idealTree:#root Completed in 57ms
+46 timing idealTree:node_modules/create-next-app Completed in 0ms
+47 timing idealTree:buildDeps Completed in 58ms
+48 timing idealTree:fixDepFlags Completed in 0ms
+49 timing idealTree Completed in 70ms
+50 timing reify:loadTrees Completed in 70ms
+51 timing reify:diffTrees Completed in 1ms
+52 silly reify moves {}
+53 timing reify:retireShallow Completed in 1ms
+54 timing reify:createSparse Completed in 3ms
+55 timing reify:loadBundles Completed in 0ms
+56 silly audit bulk request { 'create-next-app': [ '13.5.3' ] }
+57 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-13.5.3.tgz. Extracting by manifest.
+58 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-13.5.3.tgz 451ms (cache miss)
+59 timing reifyNode:node_modules/create-next-app Completed in 463ms
+60 timing reify:unpack Completed in 463ms
+61 timing reify:unretire Completed in 0ms
+62 timing build:queue Completed in 0ms
+63 timing build:link:node_modules/create-next-app Completed in 16ms
+64 timing build:link Completed in 16ms
+65 timing build:deps Completed in 18ms
+66 timing build Completed in 18ms
+67 timing reify:build Completed in 18ms
+68 timing reify:trash Completed in 0ms
+69 timing reify:save Completed in 7ms
+70 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 2689ms
+71 timing auditReport:getReport Completed in 2692ms
+72 silly audit report {}
+73 timing auditReport:init Completed in 0ms
+74 timing reify:audit Completed in 2693ms
+75 timing reify Completed in 2773ms
+76 timing command:exec Completed in 94010ms
+77 notice
+77 notice New major version of npm available! 9.6.7 -> 10.1.0
+77 notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+77 notice Run `npm install -g npm@10.1.0` to update!
+77 notice
+78 verbose exit 0
+79 timing npm Completed in 94641ms
+80 info ok
