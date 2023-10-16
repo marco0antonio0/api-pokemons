@@ -1,19 +1,16 @@
 {
-  "name": "api-node",
+  "name": "testapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^13.4.19",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
