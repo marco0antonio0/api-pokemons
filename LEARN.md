@@ -8,6 +8,8 @@ rotas de pokemons
   -  sortea um int e busca esse dados
     -  https://api-pokemon.nova-work.cloud/api/get-one?id=5
 
+A api busca dados no arquivo db/dados no lista pokemons_db e oferece nas rotas api.
+
 ##  arquivos javascript api
 -  [pages/api](/pages/api/)
 
