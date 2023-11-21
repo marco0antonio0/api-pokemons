@@ -1,17 +1,19 @@
 # API-Pokemon 🚀
 
+![img](/images_readme/art3.png)
+
 A API-Pokemon é um projeto exemplar desenvolvido com fins educacionais, com o propósito de ilustrar a implementação prática do framework Next.js para aplicativos de backend. Este projeto foi concebido como parte integrante de um curso universitário sobre desenvolvimento de backend, com a principal meta de aprimorar habilidades técnicas e proporcionar um entendimento mais profundo das práticas de desenvolvimento ágil.
 
 Este projeto exemplifica a aplicação real das tecnologias estudadas e serve como um guia esclarecedor para estudantes e desenvolvedores que desejam compreender como criar soluções de backend eficazes. É uma demonstração prática e esclarecedora de como os conceitos teóricos se traduzem em soluções de software funcionais.
 
 ## Exemplo acesse o projeto nas rotas
 
-- busca os dados por **id**
+- busca os dados do pokemon por **id**
   - https://api-pokemon.nova-work.cloud/api/get-one?id=5
-- busca os todos os dados
+- busca os todos os dados de **todos** os pokemons
   - https://api-pokemon.nova-work.cloud/api/get-all
-- sortea um int e busca esse dados
-  - https://api-pokemon.nova-work.cloud/api/get-one?id=5
+- sortea **apenas um** pokemon
+  - https://api-pokemon.nova-work.cloud/api/sort
 
 ## Visão Geral
 
@@ -27,10 +29,10 @@ A API-Pokemon fornece três rotas distintas, cada uma com funcionalidades:
 - Descrição: Esta rota permite recuperar dados especificando um ID.
 - Uso: `GET /api/get-one`
 
-### 3. `GET /api/sort?id=<set_int>`
+### 3. `GET /api/sort`
 
-- Descrição: Esta rota permite realizar uma ordenação aleatória e recuperar os dados na posição especificada.
-- Uso: `GET /api/sort?id=5`
+- Descrição: Esta rota permite realizar uma ordenação aleatória e recuperar os dados do item sorteado.
+- Uso: `GET /api/sort`
 
 ## Começando
 
